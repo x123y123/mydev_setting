@@ -43,4 +43,4 @@ $ make
 ```
 
 ## reference
-[youtube](https://www.youtube.com/watch?v=FNDp1G0bYou)
+* [youtube](https://www.youtube.com/watch?v=FNDp1G0bYoU)
