@@ -38,6 +38,7 @@ $ brew install git
 ```shell
 $ git config --global user.name "YOUR_NAME"
 $ git config --global user.email "YOUR_EMAIL"
+# Run the following command ,you need to locate in the file that include .git 
 $ git config core.editor "vim"
 ```
 * Generate ssh public key
