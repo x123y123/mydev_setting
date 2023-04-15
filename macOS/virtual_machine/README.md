@@ -6,5 +6,5 @@ $ brew install lima
 ```
 
 ## Reference
-* [lima github](https://github.com/lima-vm/lima)
+* [lima](https://github.com/lima-vm/lima)
 * [setting](https://earthly.dev/blog/lima/)
