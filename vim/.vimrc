@@ -20,6 +20,14 @@ set nu
 set mouse=a
 colorscheme desert
 
+set cscopetag
+
+function! Formatonsave()
+      let l:formatdiff = 1
+        py3f <path-to-clang-format.py>/clang-format.py
+endfunction
+autocmd BufWritePre *.h,*.hpp,*.c,*.cc,*.cpp call Formatonsave()
+
 " autocomplete dropdown list colorscheme
 hi Pmenu ctermfg=0 ctermbg=7 
 hi PmenuSel ctermfg=7 ctermbg=4
